@@ -1,0 +1,8 @@
+main {
+  max-width: 100vh;
+  margin-inline: auto;
+  background-image: url(../assets/images/background/intro.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: contain;
+}
