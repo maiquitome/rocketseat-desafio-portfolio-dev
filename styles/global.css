@@ -1,3 +1,33 @@
+:root {
+  --color-bg: #17181d;
+
+  --color-red: #e3646e;
+  --color-purple: #bb72e9;
+  --color-blue: #3996db;
+  --color-green: #82bc4f;
+  --color-yellow: #eabd5f;
+
+  --color-gray-100: #0d0e11;
+  --color-gray-200: #16181d;
+  --color-gray-300: #292c34;
+  --color-gray-400: #878ea1;
+  --color-gray-500: #c0c4ce;
+  --color-gray-600: #e2e4e9;
+
+  --font-family-title: Asap, sans-serif;
+  --font-family-subtitle: Inconsolata, sans-serif;
+  --font-family-text: "Maven Pro", sans-serif;
+
+  --text-title-lg: 700 56px/120% var(--font-family-title);
+  --text-title-md: 700 24px/120% var(--font-family-title);
+  --text-title-sm: 700 16px/120% var(--font-family-title);
+
+  --text-subtitle: 400 20px/120% var(--font-family-subtitle);
+
+  --text-md: 400 16px/140% var(--font-family-text);
+  --text-sm: 400 14px/140% var(--font-family-text);
+}
+
 * {
   margin: 0;
   padding: 0;
