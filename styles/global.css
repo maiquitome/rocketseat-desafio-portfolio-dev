@@ -35,5 +35,19 @@
 }
 
 body {
-  background-color: #17181d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  background-color: var(--color-bg);
+}
+
+h1 {
+  font: var(--text-title-lg);
+  color: var(--color-gray-600);
+}
+
+h2 {
+  font: var(--text-subtitle);
+  color: var(--color-gray-500);
 }
