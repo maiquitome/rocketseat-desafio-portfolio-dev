@@ -34,7 +34,7 @@
 }
 
 #my-services {
-  background-color: #000;
+  background-color: var(--color-gray-100);
   padding: 88px 24px 120px 24px;
   #services {
     margin-inline: auto;
