@@ -1,7 +1,7 @@
 main {
   background-image: url(../assets/images/background/intro.png);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 750px;
   background-size: contain;
   #intro {
     padding-top: 120px;
@@ -33,7 +33,7 @@ main {
         }
       }
       h1 {
-        margin-block: 8px 20px;
+        margin-bottom: 20px;
       }
       p {
         font: var(--text-sm);

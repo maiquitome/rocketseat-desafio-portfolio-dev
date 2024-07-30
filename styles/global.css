@@ -37,6 +37,7 @@
 .container {
   max-width: 1366px;
   margin-inline: auto;
+  padding-inline: 24px;
 }
 
 body {
@@ -56,4 +57,19 @@ h1 {
 h2 {
   font: var(--text-subtitle);
   color: var(--color-gray-500);
+  padding-bottom: 8px;
+}
+
+h3 {
+  font: var(--text-title-md);
+  color: var(--color-gray-600);
+}
+
+h4 {
+  font: var(--text-title-sm);
+  color: var(--color-gray-600);
+}
+
+p {
+  font: var(--text-sm);
 }
