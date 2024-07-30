@@ -16,7 +16,14 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
+        #code-icon {
+          position: absolute;
+          top: 70%;
+          left: 70%;
+          max-width: 32px;
+        }
         #circle {
+          position: relative;
           display: flex;
           justify-content: center;
           align-items: center;
