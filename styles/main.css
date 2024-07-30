@@ -1,5 +1,4 @@
 main {
-  text-align: center;
   background-image: url(../assets/images/background/intro.png);
   background-repeat: no-repeat;
   height: 100vh;
@@ -8,7 +7,6 @@ main {
     padding-top: 120px;
     max-width: 1040px;
     margin-inline: auto;
-    text-align: center;
     #inner-intro-container {
       max-width: 680px;
       margin-inline: auto;
