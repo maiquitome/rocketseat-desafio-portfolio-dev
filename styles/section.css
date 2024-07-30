@@ -60,3 +60,45 @@
     }
   }
 }
+
+#contact {
+  padding-top: 128px;
+  background-image: url(../assets/images/background/contacts.png);
+  height: 787px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  #buttons {
+    max-width: 400px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  p {
+    color: var(--color-gray-500);
+    padding-block: 8px 48px;
+  }
+  .button {
+    padding: 20px;
+    background-color: var(--color-gray-300);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid var(--color-gray-300);
+    span {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    &:hover {
+      border: 1.5px solid var(--color-blue);
+      img {
+        filter: invert(58%) sepia(94%) saturate(2457%) hue-rotate(180deg)
+          brightness(92%) contrast(86%);
+      }
+    }
+  }
+}

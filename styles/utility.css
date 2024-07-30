@@ -1,3 +1,7 @@
 .red-color {
   color: var(--color-red);
 }
+
+.purple-color {
+  color: var(--color-purple);
+}
